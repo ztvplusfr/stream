@@ -1,0 +1,28 @@
+body {
+  margin: 0; /* Supprime les marges par défaut du corps de la page */
+  padding-top: 60px; /* Ajustez cette valeur si nécessaire */
+  background-color: #000; /* Fond noir pour toute la page */
+  color: #fff; /* Texte blanc pour le corps de la page */
+}
+
+header {
+  background-color: black; /* Couleur de fond noire */
+  text-align: center; /* Centrer le texte */
+  padding: 10px 0; /* Espacement vertical réduit */
+  position: fixed; /* Rend le header fixe */
+  top: 0; /* Positionne le header en haut de la page */
+  left: 0; /* S'assure que le header s'étend sur toute la largeur */
+  right: 0; /* S'assure que le header s'étend sur toute la largeur */
+  z-index: 1000; /* Assure que le header est au-dessus d'autres éléments */
+}
+
+h1 {
+  font-size: 28px; /* Taille du titre */
+  color: white; /* Couleur du titre en blanc */
+  margin: 0; /* Supprimer la marge par défaut */
+}
+
+/* Ajoutez cette section pour s'assurer que le contenu a du remplissage */
+.main-content {
+  padding: 20px; /* Ajoutez du remplissage pour le contenu principal */
+}
